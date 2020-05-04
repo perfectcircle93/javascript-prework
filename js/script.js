@@ -35,7 +35,7 @@ let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.
 
 console.log('Gracz wpisał: ' + playerInput);
 
-let playerMove = getMoveName(randomNumber);
+let playerMove = getMoveName(playerInput);
 
 /*if(playerInput == '1'){
   playerMove = 'kamień';
@@ -47,7 +47,12 @@ let playerMove = getMoveName(randomNumber);
 
 printMessage('Twój ruch to: ' + playerMove);
 
-//Rounds
+//Results
+console.log('moves:', computerMove, playerMove);
+
+function displayResult(computerMove, playerMove){
+  printMessage('Mój ruch to: ' + computerMove + ', Twój ruch to: ' + playerMove)
+}
 
 if(computerMove == playerMove){
   printMessage('Remis');
