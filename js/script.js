@@ -67,9 +67,9 @@ if(computerMove == playerMove){
 } else if(computerMove == 'papier' && playerMove == 'kamień'){
   printMessage('Ty Wygrywasz!');
 } else if(computerMove == 'papier' && playerMove == 'nożyce'){
-  printMessage('Ty wygrywasz!');
+  printMessage('Ty Wygrywasz!');
 } else if(computerMove == 'nożyce' && playerMove == 'kamień'){
-  printMessage('Ty wygrywasz!');
+  printMessage('Ty Wygrywasz!');
 } else if(computerMove == 'nożyce' && playerMove == 'papier'){
   printMessage('Wygrywa komputer');
 } else if(playerMove == 'nieznany ruch'){
