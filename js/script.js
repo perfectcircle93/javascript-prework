@@ -1,7 +1,8 @@
 function playGame(playerInput){
   clearMessages();{
-  document.getElementById('buttons').innerHTML = '';
-  }
+    document.getElementById('messages');
+    }
+
     function getMoveName(randomNumber){
       if(randomNumber == 1){
       return 'kamień';
